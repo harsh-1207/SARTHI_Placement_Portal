@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Routes, HashRouter } from 'react-router-dom'
+import { Route, Routes, BrowserRouter  } from 'react-router-dom'
 import STUDENT_HOME from '../2_Pages/2_1_Home_Page/Student_Home' 
 import STUDENT_COMPANY_PAGE from '../2_Pages/2_2_Company_Page/Student_Company_Page'
 import STUDENT_COMPANY_INFO from '../2_Pages/2_2_Company_Page/Company_Info_Page/Company_Info_Page'
@@ -15,7 +15,8 @@ import ADMIN_LOGIN_PAGE from '../../Admin Side/1_Login/AdminLoginPage'
 
 const login = () => {
   return (
-    <HashRouter>
+    <BrowserRouter basename='/SARTHI_Placement_Portal'>
+
         {/* <Routes>
             <Route path='/' element={<NavBarMain/>}>
             <Route path='home-page' element={<STUDENT_HOME />}></Route>
@@ -26,8 +27,8 @@ const login = () => {
         </Routes> */}
         <Routes>
             {/* <Route path='/' element={}></Route> */}
-            <Route path='/student-login' element={<STUDENT_LOGIN_PAGE />}></Route>
-            <Route path='/admin-login' element={<ADMIN_LOGIN_PAGE />}></Route>
+            <Route path='student-login' element={<STUDENT_LOGIN_PAGE />}></Route>
+            <Route path='admin-login' element={<ADMIN_LOGIN_PAGE />}></Route>
             <Route path='/' element={<NavBarMain/>}>
               <Route index element={<STUDENT_HOME />}></Route>
               <Route path='company-page' element={<STUDENT_COMPANY_PAGE />}></Route>
@@ -40,7 +41,7 @@ const login = () => {
               <Route path='profile-page' element={<STUDENT_PROFILE_PAGE />}></Route>
             </Route>
         </Routes>
-    </HashRouter>
+    </BrowserRouter>
   )
 }
 
