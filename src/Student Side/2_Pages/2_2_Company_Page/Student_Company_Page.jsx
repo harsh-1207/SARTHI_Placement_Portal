@@ -28,7 +28,7 @@ const Student_Company_Page = () => {
             />
           </div>
         </div>
-    </>
+    </> 
   );
 };
 
