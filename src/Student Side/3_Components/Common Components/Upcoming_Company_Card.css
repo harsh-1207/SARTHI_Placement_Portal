@@ -1,0 +1,86 @@
+.company-name{
+    width: 100%;
+    height: 15%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: transparent;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.line-wrapper{
+    width: 100%;
+    height: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+.line{
+    width: 90%;
+    height: 100%;
+
+    margin: 0;
+    background-color: black;
+
+}
+
+.info-wrapper{
+    width: 100%;
+    height: 50%;
+    background-color: transparent;
+    margin: 2% 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.info-company{
+    width: 90%;
+    height: 70%;
+    background-color: transparent;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info-application-count{
+    width: 90%;
+    height: 70%;
+    background-color: transparent;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.company-type, .company-CTC, .company-drive-date, .application-count{
+    height: 100%;
+    width: 30%;
+    
+    display: flex;
+    align-items: center;
+    
+    font-size: 1.2rem;
+    background-color: transparent;
+}
+.company-type{
+    justify-content: flex-start;
+}
+.company-CTC{
+    justify-content: center;
+}
+.company-drive-date{
+    justify-content: flex-end;
+}
+
+.application-count{
+    justify-content: flex-start;
+}
+
+

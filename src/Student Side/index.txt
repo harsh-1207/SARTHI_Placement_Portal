@@ -1,0 +1,41 @@
+Login 
+  |
+  ----- StudentLogin.js
+  ----- StudentLogin.css
+  
+Pages
+  |
+  ----- Home Page
+            |
+            ----- StudentLogin.js
+            ----- StudentLogin.css
+  ----- Company Page 
+            |
+            ----- StudentLogin.js
+            ----- StudentLogin.css
+  ----- Students Page
+            |
+            ----- StudentLogin.js
+            ----- StudentLogin.css
+  ----- Applied Page
+            |
+            ----- StudentLogin.js
+            ----- StudentLogin.css
+  ----- Placed Page 
+            |
+            ----- StudentLogin.js
+            ----- StudentLogin.css
+  ----- Notice Page 
+            |
+            ----- StudentLogin.js
+            ----- StudentLogin.css
+  ----- Profile Page 
+            |
+            ----- StudentLogin.js
+            ----- StudentLogin.css
+
+
+
+
+
+Components

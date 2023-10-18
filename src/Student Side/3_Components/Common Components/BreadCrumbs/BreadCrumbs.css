@@ -1,0 +1,6 @@
+.MuiBreadcrumbs-ol, .MuiBreadcrumbs-li, .MuiBreadcrumbs-separator{
+    background-color: #242526;
+}
+.MuiBreadcrumbs-separator{
+    color: white;
+}

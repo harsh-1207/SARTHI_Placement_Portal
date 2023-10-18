@@ -1,0 +1,10 @@
+.field{
+    background: transparent;
+    width:inherit;
+    display: flex;
+    padding: 0.5vh;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(243, 84, 111); */
+    border-radius: 30px;
+}

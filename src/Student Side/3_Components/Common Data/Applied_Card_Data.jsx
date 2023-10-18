@@ -1,0 +1,42 @@
+export const appliedCardData = [
+    {
+        id : 1, 
+        companyName:"Amazon",
+        companyType:"Product",
+        companyCTC:"100000",
+        status:"Applied",
+        buttonColor:"pink",
+    },
+    {
+        id : 2, 
+        companyName:"Amazon",
+        companyType:"Product",
+        companyCTC:"100000",
+        status:"Applied",
+        buttonColor:"pink",
+    },
+    {
+        id : 3, 
+        companyName:"Amazon",
+        companyType:"Product",
+        companyCTC:"100000",
+        status:"Applied",
+        buttonColor:"pink",
+    },
+    {
+        id : 4, 
+        companyName:"Amazon",
+        companyType:"Product",
+        companyCTC:"100000",
+        status:"Applied",
+        buttonColor:"pink",
+    },
+    {
+        id : 5, 
+        companyName:"Amazon",
+        companyType:"Product",
+        companyCTC:"100000",
+        status:"Applied",
+        buttonColor:"pink",
+    },
+]

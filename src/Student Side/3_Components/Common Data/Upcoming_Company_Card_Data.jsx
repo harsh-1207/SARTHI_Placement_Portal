@@ -1,0 +1,42 @@
+export const upcomingCompanyCardData = [
+    {
+        id : 1,
+        name : "ACCENTURE",
+        type : "Service Based",
+        ctc : "100000",
+        date : "30 September 2024",
+        applicationCount : "89",
+    },
+    {
+        id : 2,
+        name : "ACCENTURE",
+        type : "Service Based",
+        ctc : "100000",
+        date : "30 September 2024",
+        applicationCount : "89",
+    },
+    {
+        id : 3,
+        name : "ACCENTURE",
+        type : "Service Based",
+        ctc : "100000",
+        date : "30 September 2024",
+        applicationCount : "89",
+    },
+    {
+        id : 4,
+        name : "ACCENTURE",
+        type : "Service Based",
+        ctc : "100000",
+        date : "30 September 2024",
+        applicationCount : "89",
+    },
+    {
+        id : 5,
+        name : "ACCENTURE",
+        type : "Service Based",
+        ctc : "100000",
+        date : "30 September 2024",
+        applicationCount : "89",
+    },
+]
